@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "redis": "^4.0.3",
+    "buffer": "^6.0.3",
+    "aws-sdk": "^2.1067.0"
   }
 }
