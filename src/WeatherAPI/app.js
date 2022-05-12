@@ -5,7 +5,7 @@ let AWS = require('aws-sdk');
 
 let response;
 
-const region = "<<{{MyRegionName}}>>";
+const region = "us-east-1";
 
 const API_KEY_WEATHER = await getSecret('API_KEY_WEATHER')
 
