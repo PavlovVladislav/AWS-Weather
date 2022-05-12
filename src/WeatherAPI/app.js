@@ -58,7 +58,6 @@ exports.lambdaHandler = async (event, context) => {
         if (!event.queryStringParameters.city) throw Error('City is not defined');
 
     }
-
 };
 
 async function getSecret(secretName){
